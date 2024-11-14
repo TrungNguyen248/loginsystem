@@ -28,3 +28,9 @@ MONGO_PASSWORD=
 ```
     npm run dev
 ```
+
+### End point
+
+- /v1/api/register
+- /v1/api/login
+- /v1/api/resource
