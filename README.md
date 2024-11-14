@@ -31,6 +31,10 @@ MONGO_PASSWORD=
 
 ### End point
 
-- /v1/api/register
-- /v1/api/login
-- /v1/api/resource
+- <code>POST</code> <code><b>/v1/api/register</b></code> <code>register</code>
+- <code>POST</code> <code><b>/v1/api/login</b></code> <code>login</code>
+- <code>GET</code> <code><b>/v1/api/resource</b></code> <code>test authentication</code>
+- <code>POST</code> <code><b>/v1/api/profile</b></code> <code>get profile</code>
+- <code>PATCH</code> <code><b>/v1/api/profile/update</b></code> <code>update profile</code>
+- <code>POST</code> <code><b>/v1/api/profile/upload</b></code> <code>upload avatar</code>
+- <code>POST</code> <code><b>/v1/api/profile/change-pwd</b></code> <code>change password</code>
